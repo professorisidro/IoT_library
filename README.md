@@ -6,7 +6,10 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 ##Funções disponíveis (em constante atualização e autoexplicativas)
 
 *defineLed(PINO)* - define o PINO especificado (tem que ser digital) como sendo um pino de LED.
+
 *acendeLed(PINO)* - acende o LED definido no pino.
+
 *apagaLed(PINO)* - apaga o LED.
+
 *espera(TEMPO)* - espera o tempo em millisegundos (1000 millisegundos = 1 segundo).
 
