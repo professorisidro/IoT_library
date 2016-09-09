@@ -1,4 +1,5 @@
 #include "Arduino.h"
+#include "Servo.h"
 #include "IoT.h"
 
 void defineLed(int led){
@@ -16,3 +17,11 @@ void apagaLed(int pin){
 void espera(long time){
 	delay(time);
 }
+
+uint8_t Motor::conectar(int pin){
+    Servo::attach(pin);
+}
+void Motor::girar(int graus){
+    Servo::write(graus);
+}
+
