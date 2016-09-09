@@ -13,3 +13,9 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 *espera(TEMPO)* - espera o tempo em millisegundos (1000 millisegundos = 1 segundo).
 
+*Classe Motor* - reescrita da classe Servo da biblioteca Servo.h (apenas para traduzir o termo).
+
+*Motor.conectar(PINO)* - conecta o motor no pino determinado (função ATTACH do Servo).
+
+*Motor.girar(GRAUS)* - envia comando para o motor rotacionar no valor informado em GRAUS. Similar ao método WRITE.
+
