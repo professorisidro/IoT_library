@@ -18,6 +18,21 @@ void espera(long time){
 	delay(time);
 }
 
+void botao(int pin){
+	pinMode(pin, INPUT_PULLUP);
+}
+
+uint8_t verificaBotao(int pin){
+	return digitalRead(pin);
+}
+
+int botaoLigado(int pin){
+	return (digitalRead(pin) == LOW);
+}
+
+int botaoDesligado(int pin){
+	return (digitalRead(pin) == HIGH);
+}
 uint8_t Motor::conectar(int pin){
     Servo::attach(pin);
 }

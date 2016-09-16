@@ -3,13 +3,23 @@
 
 	#include "Arduino.h"
 	#include "Servo.h"
-	#define ENTRADA INPUT
-	#define SAIDA   OUTPUT
+	#define ENTRADA   INPUT
+	#define SAIDA     OUTPUT
+    #define LIGADO    0
+    #define DESLIGADO 1
+    #define se        if 
+    #define senao     else
+    #define Numero    int
+    
 
-	void acendeLed(int pin);
-	void apagaLed(int pin);
-	void espera(long mili);
-	void defineLed(int pin);
+	void    acendeLed(int pin);
+	void    apagaLed(int pin);
+	void    espera(long mili);
+	void    defineLed(int pin);
+	void    botao(int pin);
+	uint8_t verificaBotao(int pin);
+	int     botaoLigado(int pin);
+	int     botaoDesligado(int pin);
 
     class Motor : Servo{
        public:
