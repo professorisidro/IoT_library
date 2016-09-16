@@ -19,3 +19,14 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 *Motor.girar(GRAUS)* - envia comando para o motor rotacionar no valor informado em GRAUS. Similar ao método WRITE.
 
+*botao(PINO)* - define o pino correspondente ao botao.
+
+*botaoLigado(PINO)* - retorna 1 se o botao esta ligado ou 0 caso contrario.
+
+*botaoDesligado(PINO)* - retorna 1 se o botao esta desligado ou 0 caso contrário.
+
+##Redefinições de Estruturas sintáticas
+
+*se* - equivalente ao IF.
+
+*senao* - equivalente ao ELSE.
