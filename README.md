@@ -11,6 +11,8 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 *apagaLed(PINO)* - apaga o LED.
 
+*brilhaLed(PINO, INTENSIDADE)* - faz o pino do LED acender de acordo com uma intensidade (entre 0 e 255).
+
 *espera(TEMPO)* - espera o tempo em millisegundos (1000 millisegundos = 1 segundo).
 
 *Classe Motor* - reescrita da classe Servo da biblioteca Servo.h (apenas para traduzir o termo).
@@ -27,6 +29,10 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 ##Redefinições de Estruturas sintáticas
 
-*se* - equivalente ao IF.
+*se* - Decisão - equivalente ao IF.
 
 *senao* - equivalente ao ELSE.
+
+*repita(x)* - repete o bloco de comandos x vezes. Equivalente ao comando FOR. Nesta versão ainda não é possível aninhar várias estruturas "repita". Está em atualização.
+
+
