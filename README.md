@@ -11,7 +11,7 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 *apagaLed(PINO)* - apaga o LED.
 
-*brilhaLed(PINO, INTENSIDADE)* - faz o pino do LED acender de acordo com uma intensidade (entre 0 e 255).
+*brilhaLed(PINO, INTENSIDADE)* - faz o pino do LED acender de acordo com uma intensidade (entre 0 e 255). Cuidado, pinos que podem receber sinal analógico via PWM são, na maioria dos Arduinos, os pinos 3, 5, 6, 9, 10 e 11
 
 *espera(TEMPO)* - espera o tempo em millisegundos (1000 millisegundos = 1 segundo).
 
