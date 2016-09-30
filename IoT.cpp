@@ -14,6 +14,10 @@ void apagaLed(int pin){
 	digitalWrite(pin, LOW);
 }
 
+void brilhaLed(int pin, int brilho){
+	analogWrite(pin, brilho);
+}
+
 void espera(long time){
 	delay(time);
 }
@@ -39,4 +43,6 @@ uint8_t Motor::conectar(int pin){
 void Motor::girar(int graus){
     Servo::write(graus);
 }
+
+
 
