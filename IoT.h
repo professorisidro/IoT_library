@@ -19,6 +19,10 @@
 	void    acendeLed(int pin);
 	void    apagaLed(int pin);
 	void    espera(long mili);
+
+        void    defineRele(int pin);
+        void    ligaRele(int pin);
+        void    desligaRele(int pin);
 	void    defineLed(int pin);
 	void    brilhaLed(int pin, int brilho);
 	void    botao(int pin);
