@@ -2,6 +2,16 @@
 #include "Servo.h"
 #include "IoT.h"
 
+
+void    defineRele(int pin){
+   pinMode(pin, OUTPUT);
+}
+void    ligaRele(int pin){
+   digitalWrite(pin, HIGH);
+}
+void    desligaRele(int pin){
+   digitalWrite(pin,LOW);
+}
 void defineLed(int led){
     pinMode(led, OUTPUT);
 }
