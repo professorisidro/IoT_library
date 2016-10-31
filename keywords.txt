@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Motor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+acendeLed	KEYWORD2
+apagaLed	KEYWORD2
+defineLed	KEYWORD2
+brilhaLed	KEYWORD2
+
+espera	KEYWORD2
+repita	KEYWORD2
+
+defineRele	KEYWORD2
+ligaRele	KEYWORD2
+desligaRele	KEYWORD2
+
+botao	KEYWORD2
+verificaBotao	KEYWORD2
+botaoLigado	KEYWORD2
+botaoDesligado	KEYWORD2
+
+conectar	KEYWORD2
+girar	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ENTRADA	LITERAL1
+SAIDA	LITERAL1
+
+LIGADO	LITERAL1
+DESLIGADO	LITERAL1
+
+Numero	LITERAL1
+se	LITERAL2
+senao	LITERAL2
+
