@@ -15,6 +15,26 @@ void desligaRele(int pin){
   digitalWrite(pin,LOW);
 }
 
+void    defineSensor(int trig, int echo){
+   pinMode(trig, OUTPUT);
+   pinMode(echo, INPUT);
+}
+int     calculaDistanciaSensor(int trig, int echo){
+   int   distancia;
+   long  duracao;
+  
+   digitalWrite(trig, LOW);
+   delayMicroseconds(2);
+   digitalWrite(trig, HIGH);
+   delayMicroseconds(10);
+   digitalWrite(trig, LOW);
+  
+   duracao = pulseIn(echo, HIGH);
+   // Calculating the distance
+   distancia= (int)(duracao*0.034/2);
+   return distancia;
+}
+
 void defineLed(int led){
   pinMode(led, OUTPUT);
 }
