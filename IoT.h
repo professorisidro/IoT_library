@@ -18,6 +18,9 @@ void    acendeLed(int pin);
 void    apagaLed(int pin);
 void    espera(long mili);
 
+void    defineSensor(int trig, int echo);
+int     calculaDistanciaSensor(int trig, int echo);
+
 void    defineRele(int pin);
 void    ligaRele(int pin);
 void    desligaRele(int pin);
