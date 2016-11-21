@@ -5,6 +5,8 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 ##Funções disponíveis (em constante atualização e autoexplicativas)
 
+### Funções para LEDs
+
 *defineLed(PINO)* - define o PINO especificado (tem que ser digital) como sendo um pino de LED.
 
 *acendeLed(PINO)* - acende o LED definido no pino.
@@ -15,17 +17,35 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 *espera(TEMPO)* - espera o tempo em millisegundos (1000 millisegundos = 1 segundo).
 
+### Funções para Servo Motor
+
 *Classe Motor* - reescrita da classe Servo da biblioteca Servo.h (apenas para traduzir o termo).
 
 *Motor.conectar(PINO)* - conecta o motor no pino determinado (função ATTACH do Servo).
 
 *Motor.girar(GRAUS)* - envia comando para o motor rotacionar no valor informado em GRAUS. Similar ao método WRITE.
 
+### Funções para Botão
+
 *botao(PINO)* - define o pino correspondente ao botao.
 
 *botaoLigado(PINO)* - retorna 1 se o botao esta ligado ou 0 caso contrario.
 
 *botaoDesligado(PINO)* - retorna 1 se o botao esta desligado ou 0 caso contrário.
+
+### Funções para Relé (geralmente utilizado com Relés NO - Normally Opened)
+
+*defineRele(PINO)* - define o pino correspondente ao INPUT do Relé
+
+*ligaRele(PINO)* - liga (fecha) o circuito do Rele
+
+*desligaRele(PINO)* - desliga (abre) o circuito do Rele
+
+### Funções para o Sensor de Proximidade Ultrassônico HC-SR04
+
+*defineSensor(TRIG, ECHO)* - define o sensor com os pinos correspondentes ao TRIGGER e ECHO
+
+*calculaDistanciaSensor(TRIG, ECHO)* - realiza o cálculo da distância (em centímetros) e retorna o valor numérico para ser utilizado em decisões.
 
 ##Redefinições de Estruturas sintáticas
 
@@ -35,4 +55,17 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 
 *repita(x)* - repete o bloco de comandos x vezes. Equivalente ao comando FOR. Nesta versão ainda não é possível aninhar várias estruturas "repita". Está em atualização.
 
+## Tipos de Dados
+
+*Numero* - Tipo de dado Numerico inteiro (correspondente ao INT)
+
+*NumeroDecimal* - Tipo de dado Numerico decimal (correspondente ao FLOAT)
+
+## Operações Lógicas
+
+*E* - operação lógica AND (operador &&)
+
+*OU* - operação lógica OR (operador ||)
+
+*NAO* - operação lógicao NOT (operador !)
 
