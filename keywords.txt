@@ -15,11 +15,11 @@ acendeLed	KEYWORD2
 apagaLed	KEYWORD2
 defineLed	KEYWORD2
 brilhaLed	KEYWORD2
+
 defineSensor KEYWORD2
 calculaDistanciaSensor KEYWORD2
 
 espera	KEYWORD2
-repita	KEYWORD2
 
 defineRele	KEYWORD2
 ligaRele	KEYWORD2
@@ -46,4 +46,5 @@ DESLIGADO	LITERAL1
 Numero	LITERAL1
 se	LITERAL2
 senao	LITERAL2
+repita LITERAL2
 
