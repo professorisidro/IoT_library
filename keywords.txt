@@ -33,10 +33,10 @@ botaoDesligado	KEYWORD2
 conectar	KEYWORD2
 girar	KEYWORD2
 
-defineMotorAC KEYWORD2
-giraMotorAC KEYWORD2
-inverteGiroMotorAC KEYWORD2
-paraGiroMotorAC KEYWORD2
+defineMotorAC	KEYWORD2
+giraMotorAC	KEYWORD2
+inverteGiroMotorAC	KEYWORD2
+paraGiroMotorAC	KEYWORD2
 
 
 #######################################

@@ -51,6 +51,9 @@ void    defineMotorAC(int pin1, int pin2);
 void    giraMotorAC(int pin1, int pin2);
 void    inverteGiroMotorAC(int pin1, int pin2);
 void    paraGiroMotorAC(int pin1, int pin2);
+// funcoes de Motor AC com PWM
+void    giraMotorAC(int pin1, int pin2, int velocidade);
+void    inverteGiroMotorAC(int pin1, int pin2, int velocidade);
 
 
 // funcoes de Servomotor

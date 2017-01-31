@@ -88,6 +88,15 @@ void    paraGiroMotorAC(int pin1, int pin2){
     digitalWrite(pin1, LOW);
     digitalWrite(pin2, LOW);
 }
+void    giraMotorAC(int pin1, int pin2, int velocidade){
+    digitalWrite(pin1, velocidade);
+    digitalWrite(pin2, LOW);
+}
+
+void    inverteGiroMotorAC(int pin1, int pin2, int velocidade){
+    digitalWrite(pin1, LOW);
+    digitalWrite(pin2, velocidade);
+}
 
 uint8_t Motor::conectar(int pin){
   Servo::attach(pin);
