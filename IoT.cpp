@@ -71,6 +71,23 @@ int botaoDesligado(int pin){
   return (digitalRead(pin) == HIGH);
 }
 
+// funcoes de Motor AC
+void    defineMotorAC(int pin1, int pin2){
+   pinMode(pin1, OUTPUT);
+   pinMode(pin2, OUTPUT);
+}
+void    giraMotorAC(int pin1, int pin2){
+    digitalWrite(pin1,HIGH);
+    digitalWrite(pin2,LOW);
+}
+void    inverteGiroMotorAC(int pin1, int pin2){
+    digitalWrite(pin1,LOW);
+    digitalWrite(pin2,HIGH);
+}
+void    paraGiroMotorAC(int pin1, int pin2){
+    digitalWrite(pin1, LOW);
+    digitalWrite(pin2, LOW);
+}
 
 uint8_t Motor::conectar(int pin){
   Servo::attach(pin);
