@@ -46,6 +46,12 @@ uint8_t verificaBotao(int pin);
 int     botaoLigado(int pin);
 int     botaoDesligado(int pin);
 
+// funcoes de Motor AC
+void    defineMotorAC(int pin1, int pin2);
+void    giraMotorAC(int pin1, int pin2);
+void    inverteGiroMotorAC(int pin1, int pin2);
+void    paraGiroMotorAC(int pin1, int pin2);
+
 
 // funcoes de Servomotor
 class Motor : Servo{
