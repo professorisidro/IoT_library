@@ -47,13 +47,13 @@ int     botaoLigado(int pin);
 int     botaoDesligado(int pin);
 
 // funcoes de Motor AC
-void    defineMotorAC(int pin1, int pin2);
-void    giraMotorAC(int pin1, int pin2);
-void    inverteGiroMotorAC(int pin1, int pin2);
-void    paraGiroMotorAC(int pin1, int pin2);
+void    defineMotorDC(int pin1, int pin2);
+void    giraMotorDC(int pin1, int pin2);
+void    inverteGiroMotorDC(int pin1, int pin2);
+void    paraGiroMotorDC(int pin1, int pin2);
 // funcoes de Motor AC com PWM
-void    giraMotorAC(int pin1, int pin2, int velocidade);
-void    inverteGiroMotorAC(int pin1, int pin2, int velocidade);
+void    giraMotorDC(int pin1, int pin2, int velocidade);
+void    inverteGiroMotorDC(int pin1, int pin2, int velocidade);
 
 
 // funcoes de Servomotor
