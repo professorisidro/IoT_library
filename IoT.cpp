@@ -71,29 +71,29 @@ int botaoDesligado(int pin){
   return (digitalRead(pin) == HIGH);
 }
 
-// funcoes de Motor AC
-void    defineMotorAC(int pin1, int pin2){
+// funcoes de Motor DC
+void    defineMotorDC(int pin1, int pin2){
    pinMode(pin1, OUTPUT);
    pinMode(pin2, OUTPUT);
 }
-void    giraMotorAC(int pin1, int pin2){
+void    giraMotorDC(int pin1, int pin2){
     digitalWrite(pin1,HIGH);
     digitalWrite(pin2,LOW);
 }
-void    inverteGiroMotorAC(int pin1, int pin2){
+void    inverteGiroMotorDC(int pin1, int pin2){
     digitalWrite(pin1,LOW);
     digitalWrite(pin2,HIGH);
 }
-void    paraGiroMotorAC(int pin1, int pin2){
+void    paraGiroMotorDC(int pin1, int pin2){
     digitalWrite(pin1, LOW);
     digitalWrite(pin2, LOW);
 }
-void    giraMotorAC(int pin1, int pin2, int velocidade){
+void    giraMotorDC(int pin1, int pin2, int velocidade){
     analogWrite(pin1, velocidade);
     analogWrite(pin2, LOW);
 }
 
-void    inverteGiroMotorAC(int pin1, int pin2, int velocidade){
+void    inverteGiroMotorDC(int pin1, int pin2, int velocidade){
     analogWrite(pin1, LOW);
     analogWrite(pin2, velocidade);
 }
