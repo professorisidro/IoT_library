@@ -6,7 +6,7 @@ Obviamente isso não substitui, muito menos elimina a necessidade das funções 
 ## Vídeo Explicativo
 Quer saber um pouco mais como manipular e instalar a IoT_library? Confere esse vídeo Aqui
 
-https://www.youtube.com/watch?v=awX2tzL8Tvc&t=2005s
+https://www.youtube.com/watch?v=awX2tzL8Tvc
 
 ## Funções disponíveis (em constante atualização e autoexplicativas)
 
