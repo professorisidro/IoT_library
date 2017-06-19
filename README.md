@@ -4,7 +4,8 @@ Pequena biblioteca em C para que alunos que iniciam no uso de Arduino e IoT come
 Obviamente isso não substitui, muito menos elimina a necessidade das funções a fundo. É apenas um pequeno atalho para que o foco fique na construção do circuito inicialmente.
 
 ## Vídeo Explicativo
-Quer saber um pouco mais como manipular e instalar a IoT_library? Confere esse vídeo Aqui (https://www.youtube.com/watch?v=awX2tzL8Tvc&t=2005s)
+Quer saber um pouco mais como manipular e instalar a IoT_library? Confere esse vídeo Aqui
+
 https://www.youtube.com/watch?v=awX2tzL8Tvc&t=2005s
 
 ## Funções disponíveis (em constante atualização e autoexplicativas)
