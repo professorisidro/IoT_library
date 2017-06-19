@@ -52,6 +52,17 @@ https://www.youtube.com/watch?v=awX2tzL8Tvc
 
 *calculaDistanciaSensor(TRIG, ECHO)* - realiza o cálculo da distância (em centímetros) e retorna o valor numérico para ser utilizado em decisões.
 
+### Funções para Motor DC 
+Funções que não definem velocidade
+
+*defineMotorDC(PIN1, PIN2)* - define os pinos que estão conectados no motor DC (quaisquer pinos digitais)
+
+*giraMotorDC(PIN1, PIN2)* - gira motor em uma determinada direção (os pinos definem a direção)
+
+*inverteGiroMotorDC(PIN1, PIN2)* - inverte o sentido do giro do motor
+
+*paraGiroMotoroDC(PIN1, PIN2)* - para de girar motor DC
+
 ### Redefinições de Estruturas sintáticas (para facilitar a programaço em Língua Portuguesa).
 
 *se* - Decisão - equivalente ao IF.
